@@ -24,7 +24,6 @@ DB_NAME = 'riesgo_crediticio'
 
 
 
-# String de conexión apuntando al certificado en tu Google Drive
 
 connection_string = f"mysql+pymysql://{USER}:{PASSWORD}@{HOST}:{PORT}/{DB_NAME}?ssl_ca=/content/drive/MyDrive/PRUEBAS EN COLAB/ca.pem"
 
